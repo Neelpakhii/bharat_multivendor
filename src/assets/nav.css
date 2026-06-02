@@ -1,0 +1,47 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav,ul,#navmain{
+    display: flex;
+    justify-content: space-around;
+
+}
+#navmain{
+    background-color: #90d8e7;
+    
+}
+#com{
+    margin-right: 80px;
+}
+
+#logo{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+ul{
+    gap: 20px;
+    margin-top: 35px;
+}
+
+
+#signup{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sign{
+    margin-top: 30px;
+    display: flex;
+    height: 40px;
+    justify-content: flex-end;
+}
