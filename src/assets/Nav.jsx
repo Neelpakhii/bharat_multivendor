@@ -9,11 +9,20 @@ const Nav = ()=>{
             <img src={logo} alt="Logo" id="logo" />
             <div id="com">
                 <ul>
-                    <li>Home</li>
-                    <li>Electronics</li>
-                    <li>Grocery</li>
-                    <li>AutoMobile</li>
-                    <li>RealState</li>
+                    <li className="navhover">Home</li>
+                    <li className="navhover">Electronics</li>
+                    <li className="dropdown navhover">
+                        Grocery
+                        <ul className="dropdown-menu">
+                            <li>Fruits</li>
+                            <li>Vegetables</li>
+                            <li>Dairy</li>
+                            <li>Snacks</li>
+                            <li>Beverages</li>
+                        </ul>
+                    </li>
+                    <li className="navhover">AutoMobile</li>
+                    <li className="navhover">RealState</li>
                 </ul>
             </div>
             <input type="search" name="" id="" />
