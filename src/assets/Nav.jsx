@@ -10,9 +10,22 @@ const Nav = ()=>{
             <div id="com">
                 <ul>
                     <li className="navhover">Home</li>
-                    <li className="navhover">Electronics</li>
+                    <li className="dropdown navhover">Electronics
+                        <ul className="dropdown-menu">
+                            <li>Mobiles</li>
+                            <li>laptops</li>
+                            <li>Tablets</li>
+                            <li>Smart Watches</li>
+                            <li>Cameras</li>
+                            <li>Headphones</li>
+                            <li>Speakers</li>
+                            <li>Computer Accessories</li>
+                            <li>Gaming Console</li>
+                            <li>Smart TVs</li>
+                        </ul>
+                    </li>
                     <li className="dropdown navhover">
-                        Grocery
+                        Grocery 
                         <ul className="dropdown-menu">
                             <li>Fruits</li>
                             <li>Vegetables</li>
